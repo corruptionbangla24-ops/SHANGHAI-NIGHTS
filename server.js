@@ -23,7 +23,7 @@ app.use((req, res, next) => {
 });
 
 // 🎰 [উইনগো কালার ট্রেড ওরিজিনাল ডোমেইন সিঙ্ক ভাই ভাই]
-const MAIN_SITE_URL = "https://onrender.com"; 
+const MAIN_SITE_URL = "https://betlover247.onrender.com"; 
 
 // 💎 ওরিজিনাল সাংহাই নাইটস ৫টি লাক্সারি ক্যাসিনো সিম্বল ম্যাপ
 const shanghaiSymbolsPool = ["DIAMOND", "GOLD_CHIP", "WINE_GLASS", "DRAGON_GOLD", "PANDA"];
@@ -195,5 +195,5 @@ app.get('/', (req, res) => { res.sendFile(path.resolve(__dirname, 'index.html'))
 io.on('connection', (socket) => {});
 
 // ⚡ কাস্টম নোড সার্ভার পোর্ট গেটওয়ে লাইভ অন ফায়ার (৪০০০০ পোর্টে ডেডিকেটেড সিঙ্ক লক!)
-const PORT = process.env.PORT || 40000; 
+const PORT = process.env.PORT || 5700; 
 server.listen(PORT, () => { console.log(`💎 Shanghai Nights Royal 5-Reel Slots Engine Running on port ${PORT}`); });
